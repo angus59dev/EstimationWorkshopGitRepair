@@ -1,0 +1,37 @@
+@import '../../../dimensions.scss';
+
+.pannel {
+    background: #F4F7F3;
+    flex-grow: 1;    
+    padding: $default-padding;
+
+    &.stories {
+        margin: 16px 16px 16px 0;
+        max-width: 375px;
+        border-radius: 0 $outer-corner-radius $outer-corner-radius 0;
+    }
+
+    &.mid {
+        background: white;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 16px 0;
+
+        .active-story {
+            margin: 0 0 8px 0;
+            border-radius: $outer-corner-radius;
+        }
+
+        .story-points {
+            margin: 8px 0 0 0;
+            border-radius: $outer-corner-radius;
+        }
+    }
+
+    &.attendees {
+        margin: 16px 0 16px 16px;
+        max-width: 375px;
+        border-radius: $outer-corner-radius 0 0 $outer-corner-radius ;
+    }
+}

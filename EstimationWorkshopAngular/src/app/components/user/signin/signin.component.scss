@@ -1,0 +1,7 @@
+@import '../../../../colors.scss';
+@import '../../../../dimensions.scss';
+
+.pannel {
+    background: $color-primary;
+    border-radius: $outer-corner-radius;
+}
